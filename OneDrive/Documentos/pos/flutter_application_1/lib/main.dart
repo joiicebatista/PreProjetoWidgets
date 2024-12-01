@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Exemplo Completo de Flutter',
+      title: 'Pré Projeto',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  final List<String> items = List.generate(20, (index) => 'Item ${index + 1}');
+  final List<String> items = List.generate(5, (index) => 'Item ${index + 1}');
 
   @override
   Widget build(BuildContext context) {
